@@ -77,6 +77,9 @@ PRODUCT_COPY_FILES += \
 # Display
 TARGET_USES_FOD_ZPOS := true
 
+PRODUCT_VENDOR_PROPERTIES += \
+    debug.graphics.game_default_frame_rate.disabled=1
+
 # Doze
 PRODUCT_PACKAGES += \
     ParanoidDoze
