@@ -87,6 +87,13 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             echo 'gettid: 1' >> "${2}"
             ;;
+        vendor/etc/libnfc-nci.conf)
+            sed -i "s/NFC_DEBUG_ENABLED=1/NFC_DEBUG_ENABLED=0/" "${2}"
+            ;;
+        vendor/etc/libnfc-nxp.conf)
+            sed -i "/NXPLOG_\w\+_LOGLEVEL/ s/0x03/0x02/" "${2}"
+            sed -i "s/NFC_DEBUG_ENABLED=1/NFC_DEBUG_ENABLED=0/" "${2}"
+            ;;
     esac
 }
 
