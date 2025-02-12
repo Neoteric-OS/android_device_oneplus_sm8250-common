@@ -208,7 +208,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.0-service.multihal \
+    android.hardware.sensors-service.multihal \
     libsensorndkbridge \
     libdumpstateutil.vendor:64 \
     sensors.oplus
