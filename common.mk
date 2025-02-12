@@ -224,6 +224,9 @@ PRODUCT_SOONG_NAMESPACES += \
 # Storage
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
+# USB
+PRODUCT_HAS_GADGET_HAL := true
+
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
