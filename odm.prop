@@ -5,6 +5,7 @@ ro.vendor.audio.sdk.fluencetype=fluence
 
 # Camera
 vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam
+vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram,us.zoom.videomeetings
 
 # Graphics
 debug.sf.high_fps_early_gl_phase_offset_ns=-2000000
