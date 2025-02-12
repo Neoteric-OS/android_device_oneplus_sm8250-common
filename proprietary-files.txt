@@ -396,7 +396,7 @@ odm/firmware/fastchg/21733/oplus_vooc_fw_rk826.bin|222315619396bead7063d086fe11c
 
 # CNE
 vendor/app/CACertService/CACertService.apk
-vendor/app/CneApp/CneApp.apk
+vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink
 vendor/app/IWlanService/IWlanService.apk
 vendor/bin/cnd
 vendor/bin/mutualex
