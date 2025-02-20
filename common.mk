@@ -206,6 +206,10 @@ TARGET_COMMON_QTI_COMPONENTS := \
     wfd \
     wlan
 
+# QTI fwk-detect
+PRODUCT_PACKAGES += \
+    libvndfwk_detect_jni.qti.vendor:64
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors-service.multihal \
