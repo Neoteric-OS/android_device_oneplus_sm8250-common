@@ -167,6 +167,10 @@ PRODUCT_PACKAGES += \
     WifiResTarget \
     WifiResTargetMainline
 
+# Touch
+PRODUCT_PACKAGES += \
+    TouchGestures
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
