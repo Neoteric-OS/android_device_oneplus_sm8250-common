@@ -77,8 +77,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml
 
 # Display
-TARGET_USES_FOD_ZPOS := true
-
 PRODUCT_VENDOR_PROPERTIES += \
     debug.graphics.game_default_frame_rate.disabled=1
 
